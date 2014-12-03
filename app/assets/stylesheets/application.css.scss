@@ -1,0 +1,169 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  border-radius:0 !important;
+}
+/* ========================================================
+   0A.BASIC_STYLES-DESKTOP
+=========================================================== */
+html, body {
+	height: 100%;
+}
+
+html, hmtl a{
+	width:100%;
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+body{
+	background:#FFF;
+	font-weight:300;
+	font-family: 'Oswald', sans-serif;
+	font-size:1em;
+	line-height:28px;
+}
+/* ========================================================
+   0B.TYPOGRAPHY-DESKTOP
+=========================================================== */
+h1,h2,h3,h4,h5,h6,p,a,input, textarea{
+	font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	font-weight: 300; 
+	line-height: 1.5em;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration: none;
+}
+h1{
+	font-size:55px;
+}
+h2{
+	font-size:34px;
+}
+h3{
+	font-size:22px;
+}
+h4{
+	font-size:20px;
+}
+h5{
+	font-size:18px;
+}
+h6{
+	font-size:16px;
+}
+p{
+	font-size:20px;
+}
+hr{
+	font-weight: 700;
+	height:20px;
+	width:50%;
+}
+input, textarea{
+	font-size:16px !important;
+}
+.justify{
+	text-align: justify;
+}
+/* ========================================================
+   ACTUAL STYLES
+=========================================================== */
+
+body{
+	background: #000;
+	color: #fff;
+}
+
+/* Navbar Styles */
+.navbar{
+	margin:0px;
+	background:#000;
+	border-color:#000;
+	border-bottom: 1px solid white;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar .nav li a{
+	color: #fff;
+}
+.navbar .nav > li > a:hover {
+  color: #228DFF;
+}
+
+/* Home Page */
+#logo{
+	position:relative;
+	top:200px;
+}
+#wettLogo {
+  width:50%;
+  padding:10px;
+  margin: 0 auto; 
+  background: #000;
+  border: 1px solid white;
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 20px 50px 10px #228DFF;
+     -moz-box-shadow: 0 20px 50px 10px #228DFF;
+          box-shadow: 0 20px 50px 10px #228DFF;
+}
+.home{
+	height: 100%;
+	width: 100%;
+	background: url(sunset.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#about{
+	padding-top:2%;
+	height: 100%;
+	width: 100%;
+}
+
+/* Shop Styles */
+
+.gallery{
+	width: 100%;
+	height: 100%;
+}
+
+.store{
+	padding-top: 80px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+

@@ -13,4 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require_tree .
+
+
+window.onload = function() {
+  $("#wettLogo").hide().delay(30).fadeIn(1700);
+};
