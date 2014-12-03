@@ -21,6 +21,69 @@
 * {
   border-radius:0 !important;
 }
+@media only screen and (max-width: 769px) {
+/* ========================================================
+   0A.BASIC_STYLES-MOBILE
+=========================================================== */
+html, body {
+	height: 100%;
+}
+
+html, hmtl a{
+	width:100%;
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+body{
+	font-weight:300;
+	font-family: 'Oswald', sans-serif;
+	font-size:1em;
+	line-height:28px;
+}
+
+/* ========================================================
+   0B.TYPOGRAPHY-MOBILE
+=========================================================== */
+h1,h2,h3,h4,h5,h6,p,a,input, textarea{
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	font-weight: 300; 
+	line-height: 1.2em;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration: none;
+}
+h1{
+	font-size:22px;
+}
+h2{
+	font-size:20px;
+}
+h3{
+	font-size:18px;
+}
+h4{
+	font-size:16px;
+}
+h5{
+	font-size:14px;
+}
+h6{
+	font-size:12px;
+}
+p{
+	font-size:18px;
+}
+a{
+	text-align: center!important;
+}
+input, textarea{
+	font-size:16px!important;
+}
+}
+
+@media only screen and (min-width: 769px) {
 /* ========================================================
    0A.BASIC_STYLES-DESKTOP
 =========================================================== */
@@ -84,6 +147,7 @@ input, textarea{
 }
 .justify{
 	text-align: justify;
+}
 }
 /* ========================================================
    ACTUAL STYLES
@@ -160,6 +224,7 @@ body{
 	padding-top: 80px;
 	padding-bottom: 10px;
 }
+
 
 
 
