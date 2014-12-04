@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
   end
 
   def contact
+    @contact = Contact.new
   end
   
   protect_from_forgery with: :exception
