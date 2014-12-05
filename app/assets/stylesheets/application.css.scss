@@ -277,12 +277,21 @@ td a{
 }
 .cover{
 	height: 100%;
+	margin: 0px;
 }
 #goto{
 	text-align: center;
 	text-decoration: none;
 }
-
+.center{
+	padding-top: 10%;
+}
+.actions{
+	text-align: center;
+}
+#comments{
+	background: #228DFF;
+}
 
 
 
