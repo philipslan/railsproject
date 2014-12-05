@@ -1,35 +1,16 @@
-<div class="store">
+<div id="side-bar" class="static">
+	<h2><a href="#hawaiians">TheHawaiians</a> <a href="#landscape">Landscape</a> <a href="#animal">InnerAnimal</a> <a href="#shapes">Shapes</a></h2>
+</div>
+<div id="gallery" class="store">
 	<h1>Gallery</h1>
 	<div class="container">
+		<h2 id="hawaiians" class="hawaiians">The Hawaiians</h2>
 		<div class="row">
 			<div class="col-md-4 col-md-offset-2">
 				<figure class="effect-duke">
-					<img src="<%= asset_path( 'd1zigzag.jpg' ) %>" alt="img1"/>
+					<img src="<%= asset_path( 'd5.jpg' ) %>" alt="img5"/>
 					<figcaption>
-						<h2>The <span>Zig-Zag</span></h2>
-						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
-						<a href="#">View more</a>
-					</figcaption>			
-				</figure>
-			</div>
-			<div class="col-md-4">
-				<figure class="effect-duke">
-					<img src="<%= asset_path( 'd2tiki.jpg' ) %>" alt="img2"/>
-					<figcaption>
-						<h2>The <span>Tiki</span></h2>
-						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
-						<a href="#">View more</a>
-					</figcaption>			
-				</figure>
-			</div>
-		</div>
-		<br/>
-		<div class="row">
-			<div class="col-md-4 col-md-offset-2">
-				<figure class="effect-duke">
-					<img src="<%= asset_path( 'd3fish.jpg' ) %>" alt="img3"/>
-					<figcaption>
-						<h2>The <span>FISH</span></h2>
+						<h2>Ocean<span>Blue</span></h2>
 						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
 						<a href="#">View more</a>
 					</figcaption>			
@@ -39,7 +20,7 @@
 				<figure class="effect-duke">
 					<img src="<%= asset_path( 'd4floral.jpg' ) %>" alt="img4"/>
 					<figcaption>
-						<h2>The <span>Floral</span></h2>
+						<h2>Red<span>Floral</span></h2>
 						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
 						<a href="#">View more</a>
 					</figcaption>			
@@ -48,11 +29,25 @@
 		</div>
 		<br/>
 		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<figure class="effect-duke">
+					<img src="<%= asset_path( 'd7.jpg' ) %>" alt="img9"/>
+					<figcaption>
+						<h2>Purple<span>Haze</span></h2>
+						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+			</div>
+		</div>
+		<br/>
+		<h2 id="landscape" class="hawaiians">Landscape</h2>
+		<div class="row">
 			<div class="col-md-4 col-md-offset-2">
 				<figure class="effect-duke">
-					<img src="<%= asset_path( 'd5.jpg' ) %>" alt="img5"/>
+					<img src="<%= asset_path( 'd2tiki.jpg' ) %>" alt="img2"/>
 					<figcaption>
-						<h2>The <span>Hawaiian</span></h2>
+						<h2>The <span>Tiki</span></h2>
 						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
 						<a href="#">View more</a>
 					</figcaption>			
@@ -62,7 +57,7 @@
 				<figure class="effect-duke">
 					<img src="<%= asset_path( 'd6.jpg' ) %>" alt="img6"/>
 					<figcaption>
-						<h2>The <span>Hawaiian</span></h2>
+						<h2>The <span>Volcano</span></h2>
 						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
 						<a href="#">View more</a>
 					</figcaption>			
@@ -70,6 +65,31 @@
 			</div>
 		</div>
 		<br/>
+		<h2 id="animal" class="hawaiians">Inner Animal</h2>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<figure class="effect-duke">
+					<img src="<%= asset_path( 'd8parrot.jpg' ) %>" alt="img8"/>
+					<figcaption>
+						<h2>The <span>Parrot</span></h2>
+						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+			</div>
+			<div class="col-md-4">
+				<figure class="effect-duke">
+					<img src="<%= asset_path( 'd3fish.jpg' ) %>" alt="img3"/>
+					<figcaption>
+						<h2>The <span>FISH</span></h2>
+						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+			</div>
+		</div>
+		<br/>
+		<h2 id="shapes" class="hawaiians">Shapes</h2>
 		<div class="row">
 			<div class="col-md-4 col-md-offset-2">
 				<figure class="effect-duke">
@@ -83,22 +103,9 @@
 			</div>
 			<div class="col-md-4">
 				<figure class="effect-duke">
-					<img src="<%= asset_path( 'd8parrot.jpg' ) %>" alt="img8"/>
+					<img src="<%= asset_path( 'd1zigzag.jpg' ) %>" alt="img1"/>
 					<figcaption>
-						<h2>The <span>Parrot</span></h2>
-						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
-						<a href="#">View more</a>
-					</figcaption>			
-				</figure>
-			</div>
-		</div>
-		<br/>
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
-				<figure class="effect-duke">
-					<img src="<%= asset_path( 'd7.jpg' ) %>" alt="img9"/>
-					<figcaption>
-						<h2>The<span>Hawaiian</span></h2>
+						<h2>The <span>Zig-Zag</span></h2>
 						<p>Duke is very bored. When he looks at the sky, he feels to run.</p>
 						<a href="#">View more</a>
 					</figcaption>			

@@ -234,8 +234,8 @@ body{
 }
 
 .store{
-	padding-top: 80px;
-	padding-bottom: 10px;
+	padding-top: 2%;
+	padding-bottom: 15%;
 }
 
 .contact{
@@ -299,6 +299,31 @@ td a{
 #comments{
 	background: #228DFF;
 }
+.hawaiians{
+	text-transform: uppercase;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.static{
+	float:left;
+	position:fixed;
+	left: 8%;
+	top: 10%;
+	width: 24px;
+	border: 1px solid white;
+	padding: 8px 100px 10px 20px;
+	text-decoration:hidden;
+}
+.static a{
+	color:white;
+}
+.static a:hover{
+	text-decoration:none;
+}
+
+
 /*---------------*/
 /***** Duke *****/
 /*---------------*/
@@ -428,7 +453,11 @@ figure p {
 	font-size: 68.5%;
 }
 
-
+@media only screen and (max-width: 1048px){
+	.static{
+		display: none;
+	}
+}
 
 
 
