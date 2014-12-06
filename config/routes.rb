@@ -8,6 +8,16 @@ Rails.application.routes.draw do
   resources :todos
   get "/manage" => "contacts#index"
 
+  get "/oceanblue" => "application#ocean"
+  get "/redfloral" => "application#floral"
+  get "/purplehaze" => "application#haze"
+  get "/tiki" => "application#tiki"
+  get "/volcano" => "application#volcano"
+  get "/parrot" => "application#parrot"
+  get "/fish" => "application#fish"
+  get "/triangle" => "application#triangle"
+  get "/zigzag" => "application#zigzag"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
